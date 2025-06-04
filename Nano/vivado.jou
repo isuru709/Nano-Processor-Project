@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun May 25 18:28:54 2025
+# Process ID: 18412
+# Current directory: D:/Nano
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent20040 D:\Nano\Nano.xpr
+# Log file: D:/Nano/vivado.log
+# Journal file: D:/Nano\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Nano/Nano.xpr
+update_compile_order -fileset sources_1
+reset_run synth_2
+launch_runs synth_2 -jobs 11
+wait_on_run synth_2
+launch_runs impl_2 -jobs 11
+wait_on_run impl_2
+launch_runs impl_2 -to_step write_bitstream -jobs 11
+wait_on_run impl_2

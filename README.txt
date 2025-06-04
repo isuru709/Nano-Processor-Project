@@ -1,0 +1,5 @@
+- The program loaded into the processor will add the numbers from 1 to 3 and display it using the 7 segment display
+- LED3, LED2, LED1 and LED0 represent the output from the MSB to LSB
+- LED14 indicates the Zero Flag
+- LED15 indicates the Overflow Flag
+- btnD is used to reset the program
